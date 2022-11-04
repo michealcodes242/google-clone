@@ -316,3 +316,7 @@ p{
         }
         }
     
+
+        .hidden-btn{
+            display:none;
+        }
