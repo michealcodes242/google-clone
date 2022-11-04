@@ -18,6 +18,12 @@ body{
     min-width:100vp;
 }
 
+@media (max-width:650px){
+.container-row{
+    display:none;
+}
+}
+
 nav {
     display:flex;
     justify-content: right;
@@ -171,39 +177,74 @@ nav {
 
 
 /* #d93025  Advanced Search section */
-.body-container{
-    
-    min-width:520px;
-}
 
+.body-container{
+    width:100%;
+}
 .advanced-sec {
     margin-top:2rem;
    
 }
+
+@media (max-width:650px){
+    .advanced-sec{
+        margin:0;
+    }
+    }
+
 .h1-as {
-    margin-left:2.5rem;
+    margin-left:2rem;
     color:#d93025;
     font-size:20px;
     font-weight:300;
 }
+
+
+@media (max-width:650px){
+    .h1-as{
+     padding:1rem;
+     margin-left:1rem;
+     font-size:25px;
+    }
+    }
+
+
+
+@media (max-width:650px){
+    .header-h3{
+       height:4rem;
+       background:#eee;
+    }
+    }
 
 hr {
     margin:2rem 0 ;
     opacity:0.3;
 }
 
+@media (max-width:650px){
+    hr{
+        margin:0;
+        margin-bottom:0.5rem;
+    }
+    }
 
+.flex-ctn{
+    display:flex;
+}
 .form-as{
     width:100%;
     margin-left:2.5rem;
 }
 
 
-.input-as {
-    display:flex;
-    flex-direction:column;
-    width:100%;
-}
+@media (max-width:650px){
+    .form-as{
+       margin-left:1rem;
+    }
+    }
+
+
 
 
 label {
@@ -213,20 +254,41 @@ label {
     color:#222;
    font-size:13px;
   }
+  
+@media (max-width:650px){
+    label{
+        font-size:18px;
+    }
+    }
 
 .advance-input{
     height:1.5rem;
     margin-bottom:1rem;
-    width:60%;
-  
-    
-   
-    
-   
+    width:40%;
+
 }
+
+@media (max-width:650px){
+    .advance-input{
+        height:2.3rem;
+    }
+    }
+
+@media (max-width:650px){
+.advance-input{
+    width:80%;
+}
+}
+
 .spacer-2{
-    width:0%;
+    width:10%;
 }
+
+@media (max-width:650px){
+    .spacer-2{
+        width:0%;
+    }
+    }
 
 p{
     margin-left:2.5rem;
@@ -234,3 +296,23 @@ p{
     font-size:17px;
     margin-bottom:2rem;
 }
+
+@media (max-width:650px){
+    p{
+        margin-left:1rem;
+        font-size:21px;
+
+    }
+    }
+
+    span {
+        font-size:12px;
+        margin-left:1rem;
+    }
+    @media (max-width:900px){
+        span{
+          display:none;
+    
+        }
+        }
+    
